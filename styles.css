@@ -9,7 +9,7 @@ body{
 	width: 330px;
 	height: 350px;
 	margin-left: 750px;
-	-webkit-animation: spin 10s infinite linear;
+	-webkit-animation: spin 18s infinite linear;
 }
 /*animation help from https://stackoverflow.com/questions/14859322/css3-spin-animation*/
 @-webkit-keyframes spin {
@@ -23,5 +23,28 @@ body{
 #logo2 {
 	position: relative;
 	margin-top: -220px;
-	margin-left: 830px;
+	margin-left: 820px;
+}
+.container {
+	width: 100px;
+	position: relative;
+	display: inline-block;
+}
+.container input#search {
+	width: 900px;
+	height: 30px;
+	margin-top: 150px;
+	margin-left: 465px;
+}
+.container button#search1 {
+	width: 150px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 750px;
+}
+.container button#unlucky {
+	width: 150px;
+	height: 40px;
+	margin-top: -35px;
+	margin-left: 920px;
 }
